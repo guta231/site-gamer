@@ -1,0 +1,64 @@
+/*configuração inicial*/
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+/*estilização da barra de navegação*/
+nav{
+    background-color: #494747;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    position: relative;
+    
+}
+nav ul li{
+    padding: 10px 40px;
+    display: flex;
+}
+nav ul li a{
+    
+    text-decoration:none;
+    color: white;
+    height: 30px;
+    margin: 0 10px;
+    transition-delay: 0.3s;
+    
+}
+nav ul li:hover{
+    background-color: rgb(102, 102, 105);
+}
+/*slogan da pagina*/
+.slogan{
+    height: 250px;
+    padding: 50px 0 0 0;
+    background-image: linear-gradient(to bottom, #2b7923, #071d0b);
+    
+}
+.titulo{
+    font-size: 70px;
+    text-align: center;
+    
+}
+.subtitulo{
+    text-align: center;
+}
+.buttons_list{
+    
+    border-color: #41871f;
+    cursor: pointer;
+    background-color: rgb(47, 50, 50);
+    height: 50px;
+    width: 100%;
+}
+table{
+    margin-left: 25%;
+}
+

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/icons8-computador-64.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Loja Gamer</title>
+</head>
+<body>
+    <!--barra de navegação-->
+    <nav class="barra">
+        <ul class="list">
+            <li class="items1"><a href="#">Login</a></li>
+            <li class="items1"><a href="#">Produtos</a></li>
+            <li class="items1"><a href="#">Carrinho</a></li>
+            <li class="items1"><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+    <!--Slogan da Pagina-->
+    <div class="slogan">
+         <h1 class="titulo">Hi Tech</h1>
+         <h2 class="subtitulo">Sua Loja Gamer Favorita</h2>
+    </div>
+    <hr>
+    <!--Aba de Login do Site-->
+    <h3>Login</h3>
+    <input type="text" placeholder="Usuário">
+    <input type="password" placeholder="Senha">
+    <input type="checkbox">
+    <hr>
+    <!--Tabela de produtos-->
+    <div class="produtos">
+        <h3>Produtos</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>Produto</td>
+                    <td>Preço</td>
+                     <td>Imagem</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><button class="buttons_list">Teclado Mecânico Pcyes KLR Outemu USB 89 Teclas ABNT2 LED Vermelho</button></td>
+                    <td>R$ 299,90</td>
+                    <td>
+                        <img src="./img/teclado.jpg" width="50px" height="50px">
+            
+                    </td>
+                </tr>
+                <tr>
+                    <td><button class="buttons_list">Monitor Gamer Acer KG241Q - Full HD 23.6" - 144Hz - HDMI</button></td>
+                    <td>R$ 1.044,05</td>
+                    <td>
+                        <img src="./img/monitor.jpg" width="50px" height="50px">
+                    </td>
+                </tr>
+                <tr>
+                    <td><button class="buttons_list">Mouse Gamer Logitech G203 LIGHTSYNC RGB, Efeito de Ondas de Cores, 6 Botões Programáveis</button></td>
+                    <td>R$ 159,90</td>
+                    <td>
+                        <img src="./img/mouse.jpg" width="50px" height="50px">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+    <!--Carrinho de compras-->
+    <h3>Carrinho</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <td>Nome</td>
+                <td>quantidade</td>
+                <td>Preço</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mouse Gamer</td>
+                <td>1</td>
+                <td>200R$</td>
+            </tr>
+            <tr>
+                <td>Placa de Video</td>
+                <td>1</td>
+                <td>800R$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+               <td>Total</td>
+               <td>2</td>
+               <td>1000R$</td>
+            </tr>
+        </tfoot>
+    </table>
+    <!--método de pagamento e definição de parcelas-->
+    <select>
+        <option>Crédito</option>
+        <option>Débito</option>
+        <option>Pix</option>
+    </select>
+    <select>
+        <option>A vista</option>
+        <option>2x</option>
+        <option>3x</option>
+        <option>4x</option>
+        <option>5x</option>
+        <option>6x</option>
+        <option>7x</option>
+        <option>8x</option>
+        <option>9x</option>
+        <option>10x</option>
+        <option>11x</option>
+        <option>12x</option>
+    </select>
+    <button>Pagar</button>
+    <!--Rodapé da Página-->
+    <footer>
+        <h5>@2024 Todos os Direitos Reservados</h5>
+    </footer>
+</body>
+</html>
